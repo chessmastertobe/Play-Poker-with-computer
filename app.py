@@ -46,7 +46,8 @@ new_secret_key = 1234
 #new_secret_key = secrets.SUPER_SECRET_KEY
 dev_db_connection = 1234
 #dev_db_connection = secrets.DEVELOPMENT_DB
-test_db_connection = secrets.TEST_DB
+#test_db_connection = secrets.TEST_DB
+test_db_connection = 1234
 
 app = Flask(__name__, template_folder="Templates", static_folder="Static")
 CORS(app)
