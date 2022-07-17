@@ -44,7 +44,8 @@ import secrets
 importlib.reload(secrets)
 new_secret_key = 1234
 #new_secret_key = secrets.SUPER_SECRET_KEY
-dev_db_connection = secrets.DEVELOPMENT_DB
+dev_db_connection = 1234
+#dev_db_connection = secrets.DEVELOPMENT_DB
 test_db_connection = secrets.TEST_DB
 
 app = Flask(__name__, template_folder="Templates", static_folder="Static")
